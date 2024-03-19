@@ -1,0 +1,49 @@
+#header{
+  display: flex;
+  flex-direction: row;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+#header>h1>a, #header>h1>a:link, #header>h1>a:visited, #header>h1>a:hover{
+  color: white;
+}
+
+#area{
+  padding: 30px;
+  margin: 0 auto;
+  background: lightgray;  
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+form {
+  padding: 50px;
+  margin: 0 auto;
+  background: white;
+  box-sizing: border-box;
+  width: 60%;
+}
+
+#intro{
+  padding: 10px;
+  border: 1px solid black;
+  font-size: 14px
+}
+
+#input{
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center; 
+}
+
+#output{
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center; 
+}
+
+#footer{
+  text-align: center;
+}
